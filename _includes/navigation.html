@@ -1,0 +1,11 @@
+<nav id="header">
+    {% for item in site.data.navigation %}
+        {% if dragon == true %}
+            <img id="dragon" class="filter" src="/assets/images/static/dragon.svg"></img>
+        {% endif %}
+        <a href="{{ item.link }}" class="navlink">
+            {{ item.name }}
+        </a>
+        {% assign dragon = true %}
+    {% endfor %}
+</nav>
