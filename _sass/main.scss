@@ -19,6 +19,12 @@ body {
     background-color: #dfdfdf;
 }
 
+#sec {
+    margin: auto;
+    font-size: 18px;
+    color: #70bcff;
+}
+
 @media screen and (min-width: 800px) {
 
     .container {
@@ -78,15 +84,6 @@ nav {
     font-size: 18px;
     color: #fff;
     text-decoration: none;
-}
-
-#dragon {
-    width: 20%;
-    margin-bottom: 0.1em;
-}
-
-.filter{
-    filter: invert(32%) sepia(16%) saturate(484%) hue-rotate(79deg) brightness(92%) contrast(85%);
 }
 
 footer {
