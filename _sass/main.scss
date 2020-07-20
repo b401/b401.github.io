@@ -27,6 +27,10 @@ body {
 
 @media screen and (min-width: 800px) {
 
+    #frame {
+        width: 80%;
+    }
+
     .container {
         width: 40%;
         margin: auto;
@@ -120,6 +124,7 @@ div#about{
     flex: 0 1 auto;
     list-style-type: none;
     position: relative;
+    padding: 0.5vh;
 }
 
 #contact>li>div {
@@ -127,10 +132,8 @@ div#about{
     text-align: center;
 }
 
-#contact>li>img {
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
+#contact>li>div>img {
+    padding: 0;
 }
 
 #contact>li>div>a {
@@ -140,7 +143,6 @@ div#about{
 
 #frame {
     display:flex;
-    width: 80%;
     margin: 0 auto;
 }
 
