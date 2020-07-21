@@ -25,7 +25,7 @@ Well lets see...
 
 Let's take the following example:
 <br />
-Please use the textarea to paste the content into.  
+Please use the textarea below to copy/paste the example into.  
 
 {% include csshack.html %}
 
