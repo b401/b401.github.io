@@ -29,7 +29,7 @@ Please use the textarea below to copy/paste the example into.
 
 {% include csshack.html %}
 
-<img src="/assets/images/pikachu.jpg" style="max-width:40%">
+<img src="/assets/images/pikachu.jpg" style="max-width:20%" class="center">
 
 <br />
 
