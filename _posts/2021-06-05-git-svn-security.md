@@ -55,7 +55,7 @@ So. let's get to the data.
 How many exposed directories did ohayou find?  
 Less than anticipated and more than it should.
 
-<img src="/assets/images/git_diag.png" style="max-width:20%" class="center">
+<img src="/assets/images/git_diag.png" style="max-width:70%" class="center">
 
 Out of the 2'426'038 domains that gave a response before the timeout and had a HTTP/HTTPS service, **56** had their .git exposed.  
 
